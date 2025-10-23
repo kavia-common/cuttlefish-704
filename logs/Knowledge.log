@@ -49587,3 +49587,58 @@ ure_env/tpm_key_blob_maker.h not successfully processed
 2025-10-23 11:04:15,101 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimcvaripplecode5379/704/b98912v/cuttlefish-704/host/frontend/webrtc_operator/utils.h
 2025-10-23 11:04:15,314 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimcvaripplecode5379/704/b98912v/cuttlefish-704/host/commands/process_sandboxer/credentialed_unix_server.h
 2025-10-23 11:04:15,516 - Knowledge - INFO - process ingested knowledge for /app/data/tataelxsimcvaripplecode5379/704/b98912v/cuttlefish-704/host/libs/confui/fonts.S
+2025-10-23 11:04:32,744 - Knowledge - INFO - Knowledge creation complete
+2025-10-23 11:04:32,897 - Knowledge - INFO - ==================================================
+2025-10-23 11:04:33,128 - Knowledge - INFO - KNOWLEDGE GRAPH GENERATION PERFORMANCE SUMMARY
+2025-10-23 11:04:33,352 - Knowledge - INFO - ==================================================
+2025-10-23 11:04:33,536 - Knowledge - INFO - Total processing time: 1690.40 seconds (28.17 minutes)
+2025-10-23 11:04:33,767 - Knowledge - INFO - Files processed: 0
+2025-10-23 11:04:33,954 - Knowledge - INFO - Processing rate: 0.00 files/second
+2025-10-23 11:04:34,143 - Knowledge - INFO - 
+[TIME_BREAKDOWN]
+2025-10-23 11:04:34,335 - Knowledge - INFO - File Reading: 1.41s (0.1%)
+2025-10-23 11:04:34,505 - Knowledge - INFO - LLM Processing: 1168.32s (69.1%)
+2025-10-23 11:04:34,664 - Knowledge - INFO - MongoDB Operations: 0.00s (0.0%)
+2025-10-23 11:04:34,876 - Knowledge - INFO - Redis Operations: 0.00s (0.0%)
+2025-10-23 11:04:35,114 - Knowledge - INFO - WebSocket Communication: 0.86s (0.1%)
+2025-10-23 11:04:35,297 - Knowledge - INFO - Other Overhead: 519.81s (30.8%)
+2025-10-23 11:04:35,507 - Knowledge - INFO - 
+[LLM_STATS]
+2025-10-23 11:04:35,667 - Knowledge - INFO - Total LLM calls: 29
+2025-10-23 11:04:35,856 - Knowledge - INFO - Average LLM response time: 40287ms
+2025-10-23 11:04:36,041 - Knowledge - INFO - Average prompt tokens: 53087.4
+2025-10-23 11:04:36,248 - Knowledge - INFO - Average completion tokens: 8674.4
+2025-10-23 11:04:36,437 - Knowledge - INFO - Total prompt tokens: 1539534
+2025-10-23 11:04:36,588 - Knowledge - INFO - Total completion tokens: 251557
+2025-10-23 11:04:36,780 - Knowledge - INFO - Total LLM cost: $0.0000
+2025-10-23 11:04:36,983 - Knowledge - INFO - 
+[DATABASE_STATS]
+2025-10-23 11:04:37,195 - Knowledge - INFO - MongoDB operations: 0
+2025-10-23 11:04:37,396 - Knowledge - INFO - Redis operations: 0
+2025-10-23 11:04:37,548 - Knowledge - INFO - 
+[COMMUNICATION_STATS]
+2025-10-23 11:04:37,691 - Knowledge - INFO - WebSocket messages sent: 8
+2025-10-23 11:04:37,896 - Knowledge - INFO - Average message size: 148.6 bytes
+2025-10-23 11:04:38,106 - Knowledge - INFO - 
+[WORKER_STATS]
+2025-10-23 11:04:38,272 - Knowledge - INFO - 
+[FILE_TYPE_STATS]
+2025-10-23 11:04:38,456 - Knowledge - INFO - 
+[SLOWEST_FILES]
+2025-10-23 11:04:38,671 - Knowledge - INFO - ==================================================
+2025-10-23 11:04:38,843 - Knowledge - INFO - ==================================================
+2025-10-23 11:04:38,997 - Knowledge - INFO - KNOWLEDGE GRAPH GENERATION PERFORMANCE SUMMARY
+2025-10-23 11:04:39,173 - Knowledge - INFO - ==================================================
+2025-10-23 11:04:39,360 - Knowledge - INFO - Total processing time: 1696.35 seconds (28.27 minutes)
+2025-10-23 11:04:39,568 - Knowledge - INFO - Files processed: 772 of 1388
+2025-10-23 11:04:39,771 - Knowledge - INFO - Processing rate: 0.46 files/second
+2025-10-23 11:04:39,952 - Knowledge - INFO - WebSocket messages sent: 4
+2025-10-23 11:04:40,153 - Knowledge - INFO - MongoDB operations: 772
+2025-10-23 11:04:40,317 - Knowledge - INFO - Average MongoDB ops per file: 1.00
+2025-10-23 11:04:40,508 - Knowledge - INFO - LLM costs: $0.0152
+2025-10-23 11:04:40,656 - Knowledge - INFO - Prompt tokens: 101322
+2025-10-23 11:04:40,863 - Knowledge - INFO - Completion tokens: 17871
+2025-10-23 11:04:41,062 - Knowledge - INFO - Updating org costs, total cost: 0.015158999999999999
+2025-10-23 11:04:41,256 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 291, Duration: 0ms
+2025-10-23 11:04:41,419 - Knowledge - INFO - Saving knowledge to Redis...
+2025-10-23 11:04:42,075 - Knowledge - INFO - Knowledge saved to Redis successfully
